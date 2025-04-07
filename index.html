@@ -10,31 +10,70 @@
 </head>
 
 <body>
+    <nav class="navbar">
+        <div class="nav-brand">项导工作室</div>
+        <ul class="nav-links">
+            <li class="dropdown">
+                <a href="#" class="dropbtn">友情链接</a>
+                <div class="dropdown-content">
+                    <a href="https://chenhy.pguide.studio/" target="_blank">翻斗花园牛爷爷</a>
+                </div>
+            </li>
+            <li><a href="#introduction">简介</a></li>
+            <li><a href="#contributions">项目</a></li>
+        </ul>
+    </nav>
     <header>
-        <h1>PGuide Studio</h1>
-        <button id="toggle-threejs">切换3D背景</button>
+        <h1>Explore the edge of imagination and innovation.</h1>
+        <button id="toggle-threejs">查看3D背景</button>
     </header>
     <main>
         <section id="introduction">
-            <h2>关于 PGuide Studio</h2>
+            <h2>让想象力主导设计</h2>
             <p>Project Guided Studio: An interesting team who build projects as their dreams.</p>
-            <p>在这里，尽情发挥您在项目中的想象，我们尽全力帮您实现。</p>
+            <p>生成式人工智能很难取代人，最核心的一点，便是人独有的创造力和想象力。<a href="https://www.sem.tsinghua.edu.cn/info/1171/35959.htm" target="_blank">- 参考文献</a></p>
         </section>
         <section id="contributions">
-            <h2>我们的项目</h2>
+            <h2>我的一些小想法</h2>
             <div class="project">
-                <h3>项目名称：项目A</h3>
-                <p>项目A 的具体内容描述。</p>
-                <a href="https://example.com/projectA" target="_blank">访问链接</a>
+                <h3>项导文档：PGuide Docs</h3>
+                <p>一个致力于使用 Vuepress plume 主题创建交互式文档的开源项目。📚 无论您是贡献者还是用户，您都可以在这里找到全面且引人入胜的指南，以帮助您轻松了解各个方面。让我们一起让文档变得有趣且具有互动性！🎉</p>
+                <a href="https://docs.pguide.studio" target="_blank">访问链接</a>
             </div>
             <div class="project">
-                <h3>项目名称：项目B</h3>
-                <p>项目B 的具体内容描述。</p>
-                <a href="https://example.com/projectB" target="_blank">访问链接</a>
+                <h3>像素大学城：Pixel University Town</h3>
+                <p>汇聚全国大学生与MC建筑师智慧，在Minecraft中复建整个大学城，并使用web进行展示。</p>
+                <a href="https://docs.pguide.studio/project-docs/pixel-university-town/" target="_blank">访问链接</a>
             </div>
+            <div class="project">
+                <h3>啥时候吃饭：When2eat</h3>
+                <p>食堂排队打饭太折磨了，不想排队，我在思考如何在避免人流量高峰的同时又能吃上一口热饭。欸！计算机视觉把人数出来不就行了？</p>
+                <a href="http://when2eat.pguide.studio/" target="_blank">访问链接</a>
+            </div>
+            <div class="project">
+                <h3>我的API：Oh my API！</h3>
+                <p>哎哟，现在的GPT厂商们都需要登录后才能查看账号余额，每个都登录太麻烦了，整合一下最好。</p>
+                <a href="#" target="_blank">访问链接</a>
+            </div>
+            <!-- <div class="project">
+                <h3></h3>
+                <p></p>
+                <a href="" target="_blank">访问链接</a>
+            </div>
+            <div class="project">
+                <h3></h3>
+                <p></p>
+                <a href="" target="_blank">访问链接</a>
+            </div> -->
         </section>
     </main>
     <div id="threejs-container"></div>
+    <footer>
+        <div class="footer-content">
+            <p> PGuide Studio &copy; 2023-2025 All rights reserved.</p>
+            <p>Code with HTML5&Three.js&Claude3.7 in 30minutes by ❤️rand777</p>
+        </div>
+    </footer>
     <script src="three-effect.js"></script>
     <script src="app.js"></script>
 </body>
